@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #F74C05;
+  --color-brand-gold: #FAB726;
+  --color-brand-red: #D32106;
+  --color-brand-brown: #310802;
+  --color-brand-black: #000000;
+  
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-black);
+  color: white;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Igreja Evangélica Cidade Santa",
+  "description": "Uma igreja para viver a fé, encontrar propósito e caminhar em comunhão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
